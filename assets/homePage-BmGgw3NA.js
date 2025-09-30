@@ -1,4 +1,4 @@
-import{r as l,j as e,L as N}from"./index-BHCqBCzC.js";import{C as k,S as y}from"./navbar-BkZvLYdj.js";import"./routes-COqFpj4p.js";function L(){const[t,s]=l.useState(!1),r=l.useRef(null),n=l.useRef(null);return l.useEffect(()=>{const a=i=>{!r.current?.contains(i.target)&&!n.current?.contains(i.target)&&s(!1)},o=i=>i.key==="Escape"&&s(!1);return document.addEventListener("mousedown",a),document.addEventListener("keydown",o),()=>{document.removeEventListener("mousedown",a),document.removeEventListener("keydown",o)}},[]),e.jsx("section",{id:"about",className:`\r
+import{r as l,j as e,L as N}from"./index-CYzvLdMe.js";import{C as k,S as y}from"./navbar-VA8Q1Rf8.js";import"./routes-COqFpj4p.js";function L(){const[t,s]=l.useState(!1),r=l.useRef(null),n=l.useRef(null);return l.useEffect(()=>{const a=i=>{!r.current?.contains(i.target)&&!n.current?.contains(i.target)&&s(!1)},o=i=>i.key==="Escape"&&s(!1);return document.addEventListener("mousedown",a),document.addEventListener("keydown",o),()=>{document.removeEventListener("mousedown",a),document.removeEventListener("keydown",o)}},[]),e.jsx("section",{id:"about",className:`\r
         relative bg-black text-white\r
         px-4 sm:px-6 md:px-10\r
         py-14 sm:py-16 md:py-24\r
@@ -45,7 +45,7 @@ import{r as l,j as e,L as N}from"./index-BHCqBCzC.js";import{C as k,S as y}from"
               border border-white/10\r
               bg-gradient-to-br from-zinc-900 to-zinc-800\r
               p-2 sm:p-3 md:p-4 overflow-hidden\r
-            `,children:[e.jsx("div",{className:"absolute -top-24 -left-24 w-72 h-72 rounded-full bg-white/[0.03] blur-2xl"}),e.jsx("div",{className:"absolute -bottom-24 -right-24 w-72 h-72 rounded-full bg-white/[0.03] blur-2xl"}),e.jsx("img",{loading:"lazy",src:"/opt-images/11-1000.webp",srcSet:"/opt-images/11-1000.webp 1000w, /opt-images/11-1400.webp 1400w",sizes:"(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 600px",alt:"Luxury watch close-up",className:`\r
+            `,children:[e.jsx("div",{className:"absolute -top-24 -left-24 w-72 h-72 rounded-full bg-white/[0.03] blur-2xl"}),e.jsx("div",{className:"absolute -bottom-24 -right-24 w-72 h-72 rounded-full bg-white/[0.03] blur-2xl"}),e.jsx("img",{loading:"lazy",src:"opt-images/11-1000.webp",srcSet:"opt-images/11-1000.webp 1000w, opt-images/11-1400.webp 1400w",sizes:"(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 600px",alt:"Luxury watch close-up",className:`\r
                 relative z-10 block\r
                 w-full h-auto\r
                 rounded-xl object-contain\r
